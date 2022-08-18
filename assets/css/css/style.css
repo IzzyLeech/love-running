@@ -70,9 +70,9 @@ h1, h2 {
     width: 100%;
     background: url(/assets/css/images/hero-image.webp) no-repeat center center;
     
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom {
@@ -256,6 +256,13 @@ footer {
         clear: both;
         width: 100%;
         float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
         padding: 0;
     }
 
